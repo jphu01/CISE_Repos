@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [main]
 
+default:
+  run:
+    working-directory: worksheet2/my-react-app/src/App.test.tsx
+
 jobs:
   build:
     runs-on: ubuntu-latest
